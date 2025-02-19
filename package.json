@@ -2,7 +2,7 @@
   "name": "copy-relative-path-with-dots",
   "displayName": "Copy Relative Path with Dots (like Jetbrains IDEs)",
   "description": "Copy Relative Path with Dots and Line Number, like Jetbrains IDEs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.90.0"
   },
@@ -52,7 +52,7 @@
   "icon": "images/crp_icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lerime/vscode-copy-relative-path"
+    "url": "https://github.com/lerime/vscode-copy-relative-path-ext"
   },
   "license": "MIT"
 }

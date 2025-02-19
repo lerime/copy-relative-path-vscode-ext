@@ -1,16 +1,13 @@
 {
-  "name": "lerimedt",
-  "displayName": "Jetbrains Copy Relative Path",
-  "description": "Copy Relative Path with Line Number like Jetbrains IDEs",
-  "version": "0.0.1",
+  "name": "copy-relative-path-with-dots",
+  "displayName": "Copy Relative Path with Dots (like Jetbrains IDEs)",
+  "description": "Copy Relative Path with Dots and Line Number, like Jetbrains IDEs",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.90.0"
   },
   "categories": [
     "Other"
-  ],
-  "activationEvents": [
-    "onCommand:copy-relative-path.copyPath"
   ],
   "main": "./extension.js",
   "contributes": {
@@ -31,7 +28,7 @@
       "explorer/context": [
         {
           "command": "copy-relative-path.copyPath",
-          "group": "9_cutcopypaste@2",
+          "group": "6_copypath",
           "when": "resourceScheme == file"
         }
       ]

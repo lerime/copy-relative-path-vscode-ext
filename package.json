@@ -2,7 +2,7 @@
   "name": "copy-relative-path-with-dots",
   "displayName": "Copy Relative Path with Dots (like Jetbrains IDEs)",
   "description": "Copy Relative Path with Dots and Line Number, like Jetbrains IDEs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.90.0"
   },
